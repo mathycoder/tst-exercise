@@ -1,0 +1,11 @@
+.textfield-wrapper {
+    width: 100%;
+    margin-top: 16px;
+    
+}
+
+.textfield-wrapper input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
