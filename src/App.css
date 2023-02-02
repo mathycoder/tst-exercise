@@ -18,27 +18,3 @@
 #form-wrapper h2 {
     margin-top: 0;
 }
-
-.button-wrapper {
-    margin: 8px;
-}
-
-.button-wrapper button {
-    padding: 4px 8px;
-    font-size: 16px;
-    background-color: #2196f3;
-    border: #2196f3 1px solid;
-    color: white;
-    border-radius: 4px;
-    transition: background-color 0.5s;
-}
-
-.button-wrapper button:hover {
-    background-color: #1976d2;
-    cursor: pointer;
-
-}
-
-.button-wrapper button:active {
-    background-color: #0d47a1;
-}

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { initialFields } from './config'
 import PasswordValidation from './components/passwordValidation/PasswordValidation'
 import TextField from './components/textField/TextField'
+import PrimaryButton from './components/primaryButton/PrimaryButton'
 import "./App.css"
 
 const App = () => {
@@ -23,9 +24,7 @@ const App = () => {
                 <TextField name="password" label="Password" value={password} type="password" handleChange={handleChange} />
                 <TextField name="confirmPassword" label="Confirm Password" value={confirmPassword} type="password" handleChange={handleChange} />
                 <PasswordValidation password={password} confirmPassword={confirmPassword} />
-                <div className="button-wrapper">
-                    <button>Submit</button>
-                </div>
+                <PrimaryButton title="Submit" />
             </div>
         </div>
     )
